@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import { FaTelegram } from 'react-icons/fa';
@@ -26,12 +25,7 @@ const Header = () =>  (
         <Link href="#tech">
           <NavLink>Technologies</NavLink>
         </Link>
-      </li>        
-      <li>
-        <Link href="#about">
-          <NavLink>About</NavLink>
-        </Link>
-      </li>        
+      </li>              
     </Div2>
       <Div3>
         <SocialIcons href="https://github.com/webcooljedi" target={'_blank'}>

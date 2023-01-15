@@ -6,7 +6,7 @@ import Button from '../../styles/GlobalComponents/Button';
 import { NavLink } from '../Header/HeaderStyles';
 import { LeftSection } from './HeroStyles';
 
-const Hero = (props) => (
+const Hero = () => (
   <>
     <Section row nopadding>
       <LeftSection>
@@ -20,11 +20,6 @@ const Hero = (props) => (
         <SectionText>
           I`m glad to see you here!
         </SectionText>
-        <Button onClick={props.handleClick}>
-          <Link href="#about">
-            <NavLink>Learn more</NavLink>
-          </Link>
-        </Button>
       </LeftSection>
     </Section>
   </>
