@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import { FaTelegram } from 'react-icons/fa';
